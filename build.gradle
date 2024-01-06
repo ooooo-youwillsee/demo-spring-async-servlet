@@ -1,0 +1,17 @@
+plugins {
+    id "org.springframework.boot" version "2.7.14" apply false
+    id "java"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.springframework.boot:spring-boot-starter-web:2.7.14")
+}
+
+
+test {
+    useJUnitPlatform()
+}
